@@ -18,7 +18,9 @@
     "strictMetadataEmit": true,
     "enableResourceInlining": true
   },
-  "include": ["src/lib/my-typedef.d.ts"],
+  "include": [
+    "src/lib/my-typedef.d.ts"
+  ],
   "exclude": [
     "src/test.ts",
     "**/*.spec.ts"
